@@ -4,22 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Divy Limbachiya | Data Engineer</title>
-  <meta name="description" content="Portfolio of Divy Limbachiya, AWS Certified Data Engineer. Projects, experience, and skills.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230a0a0a'/%3E%3Ctext x='50' y='58' text-anchor='middle' font-family='Arial' font-size='44' fill='white'%3EDL%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 
 <body>
-<header class="container nav" aria-label="Main">
-  <a class="logo" href="#home" aria-label="Home">DL</a>
+<header class="container nav">
+  <a class="logo" href="#home">DL</a>
   <nav>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
     <a href="#education">Education</a>
-    <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle theme">Theme</button>
+    <button id="themeToggle" class="btn btn-ghost">Theme</button>
   </nav>
 </header>
 
@@ -37,35 +36,8 @@
       </div>
 
       <div class="cta">
-        <a href="#projects" class="btn">View Projects</a>
+        <a href="#projects" class="btn btn-main">View Projects</a>
       </div>
-    </div>
-  </section>
-
-  <section id="about" class="container section reveal">
-    <h2>About</h2>
-    <p>
-      Data Engineer specializing in AWS, Azure, Snowflake, and Databricks. I focus on building efficient ELT/ETL pipelines and 
-      implementing data governance. I have a proven track record of reducing manual data processing effort by 40% and 
-      achieving significant improvements in decision-making efficiency.
-    </p>
-  </section>
-
-  <section id="skills" class="container section reveal">
-    <h2>Skills</h2>
-    <div class="chips">
-      <span class="chip">Python</span>
-      <span class="chip">SQL</span>
-      <span class="chip">PySpark</span>
-      <span class="chip">AWS Glue</span>
-      <span class="chip">Snowflake</span>
-      <span class="chip">Databricks</span>
-      <span class="chip">dbt</span>
-      <span class="chip">Airflow</span>
-      <span class="chip">Azure Data Factory</span>
-      <span class="chip">Redshift</span>
-      <span class="chip">Delta Lake</span>
-      <span class="chip">CI/CD</span>
     </div>
   </section>
 
@@ -74,13 +46,15 @@
     <div class="grid">
       <div class="card">
         <h3>AWS Data Solutions Architecture</h3>
-        <img src="aws-architecture.png" alt="AWS Architecture Diagram" class="project-img">
-        <p>Spearheaded data engineering solutions on AWS integrating S3, Glue, and Redshift Serverless for near real-time analytics.</p>
+        <img src="aws-architecture.png" alt="AWS Architecture" class="project-img">
+        <p>Orchestrated serverless data extraction pipelines using AWS Glue, Lambda, and S3 for near real-time ingestion.</p>
+        <a href="https://github.com/dlimbachiya7/AWS-Data-Engineering.git" target="_blank" class="btn btn-small">Project Resources</a>
       </div>
       <div class="card">
         <h3>Airflow Workflow Management</h3>
-        <img src="airflow-architecture.png" alt="Airflow Architecture Diagram" class="project-img">
-        <p>Designed integration pipelines to extract data from 5+ APIs, ensuring 99.99% data availability.</p>
+        <img src="airflow-architecture.png" alt="Airflow Architecture" class="project-img">
+        <p>Robust data integration pipelines extracting data from 5+ APIs with 99.99% availability using Kubernetes.</p>
+        <a href="https://github.com/dlimbachiya7/airflow.git" target="_blank" class="btn btn-small">Project Resources</a>
       </div>
     </div>
   </section>
@@ -93,7 +67,7 @@
         <div class="tl-content">
           <h3>Data Engineer, Thinkific</h3>
           <p class="tl-sub">Vancouver, BC (Remote) | 01/2025 – Present</p>
-          <p>Built ELT pipelines on AWS using Glue, Lambda, and S3 to process 2K+ daily records, reducing data latency by 20%.</p>
+          <p>Processing 2K+ daily records from multiple source systems, reducing data latency from 20%.</p>
         </div>
       </li>
       <li>
@@ -101,7 +75,7 @@
         <div class="tl-content">
           <h3>Data Engineer, Infosys</h3>
           <p class="tl-sub">Toronto, ON | 10/2023 – 12/2024</p>
-          <p>Architected ETL pipelines using S3 and Glue to load data into Snowflake, reducing manual data processing effort by 40%.</p>
+          <p>Architected ETL pipelines using S3 and Glue for Snowflake, reducing manual processing effort by 40%.</p>
         </div>
       </li>
       <li>
@@ -109,7 +83,7 @@
         <div class="tl-content">
           <h3>Data Engineer, ICICI Bank</h3>
           <p class="tl-sub">Pune, India | 01/2021 – 11/2022</p>
-          <p>Designed robust ETL/ELT pipelines using Airflow and Azure Data Factory to ensure 99.99% data availability.</p>
+          <p>Ensured 99.99% data availability by designing robust ETL/ELT pipelines with Airflow.</p>
         </div>
       </li>
     </ul>
